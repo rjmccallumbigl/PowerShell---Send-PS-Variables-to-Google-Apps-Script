@@ -129,8 +129,7 @@ function setup() {
 Add-Type -Assembly System.Windows.Forms;
 $Battery = [System.Windows.Forms.SystemInformation]::PowerStatus;
 
-# $GoogleWebAppURL = 'https://script.google.com/macros/s/xM7Ib7iXgXzx9XXXvuMXXzDkXXXtxUXXxxxWpxX1XXxWI1q3t-XXXXX/exec'
-$GoogleWebAppURL = 'https://script.google.com/macros/s/AKfycbybizBXPbJyVVrXY83cIAff95UxMqZNgwcJw4kQcb32U9gXT0w/exec'
+$GoogleWebAppURL = 'https://script.google.com/macros/s/xM7Ib7iXgXzx9XXXvuMXXzDkXXXtxUXXxxxWpxX1XXxWI1q3t-XXXXX/exec'
 
 $Column1Name = 'Computer'
 $Column1Value = $env:COMPUTERNAME
