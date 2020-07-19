@@ -11,3 +11,5 @@ Use a PowerShell script to send local PowerShell values to a Google Sheet using 
 If you create new PowerShell variables you want passed in to the Sheet, a few things: 
 * Either update the var headerRow in the GAS with the new PS variable(s) or manually update the sheet to have a new column.
 * Create a new column name variable and a new column value variable. Then add them to the $postParams array.
+
+Thanks to [/u/computir](https://www.reddit.com/u/computir) for the original script!
